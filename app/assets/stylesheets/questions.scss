@@ -1,0 +1,42 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$mypurple: #674b77;
+$mygreen: #468282;
+
+body {
+  background-color: #F8F8F8;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: $mypurple;
+}
+
+h2 {
+  color: $mygreen;
+}
+
+a {
+  margin-top: 24px;
+}
+a:link {
+  border: 2px solid #ccc;
+  padding: 8px;
+  color: $mypurple;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: black;
+  border: 2px solid black;
+}
